@@ -1,0 +1,24 @@
+[project]
+authors = ["Michael Addonisio <michael.addonisio@charter.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "spotdl"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[system-requirements]
+macos = "11.2"
+
+[tasks]
+start = "python main.py"
+
+[dependencies]
+python = "3.10.*"
+ffmpeg = ">=7.1.0,<8"
+ipython = ">=8.28.0,<9"
+typer = ">=0.12.5,<0.13"
+ipdb = ">=0.13.13,<0.14"
+
+[pypi-dependencies]
+spotdl = ">=4.2.8, <5"
+
