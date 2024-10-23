@@ -3,7 +3,7 @@ authors = ["Michael Addonisio <michael.addonisio@charter.com>"]
 channels = ["conda-forge"]
 description = "Add a short description here"
 name = "spotdl"
-platforms = ["osx-arm64", "osx-64"]]
+platforms = ["osx-arm64", "osx-64"]
 version = "0.1.0"
 
 [system-requirements]
